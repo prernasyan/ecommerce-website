@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 22px;
+    box-shadow: 0px 2px 2px 2px rgb(113, 108, 108);
+}
+nav.logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+.logo h1:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7px;
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    margin-inline: 22px;
+    font-size: 22px;
+    color: black;
+    border: none;
+}
+ul li i{
+    font-size: 22px;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    color: rgb(3, 160, 160);
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main img{
+    margin-top: 20px;
+    border-radius: 100px; 
+    width: 300px;
+    box-shadow:0px 3px 3px 2px rgb(113, 108, 108);
+}
+img:hover{
+    /* width: 320px; */
+    box-shadow:4px 4px 4px 4px rgb(76, 73, 73);
+}
+.main .mainText{
+    margin-top: 144px;
+}
+.mainText h1{
+    font-size: 64px;
+}
+.mainText .top{
+    color: rgb(3, 139, 139);
+}
+.mainText button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(3, 132, 132);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+.mainText button:hover{
+    border: 3px solid rgb(3, 142, 142);
+    background-color: transparent;
+    color: rgb(4, 135, 135);
+}
+
+
+.trends .head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head span{
+    color: rgb(3, 133, 133);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+}
+.card .crd:hover{
+    box-shadow: 0px 2px 2px 2px rgb(113, 108, 108);
+}
+.crd img{
+    width: 85%;
+    padding: 22px;
+    border-radius: 31px;
+}
+.crdText{
+    margin-left: 16px;
+    padding: 8px;
+}
+.crdText button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(3, 150, 150);
+    color: white;
+    font-size: 19px;
+    margin-top: 11px;
+}
+.crdText i{
+    color: rgb(244, 244, 19);
+    
+}
+.footer button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(3, 132, 132);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+button:hover{
+    box-shadow: 0px 2px 2px 2px rgb(113, 108, 108);
+}
